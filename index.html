@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Proxi English Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN Link for Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    
+    <nav class="top-nav">
+      <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="side-container">
+    <div class="inner-side">
+    <img class="side-icon" src="img/icon.png" alt="" />
+  </div>
+  <button class="btn" id="myButton1">App made by</button>
+  <div id="myDiv1" style="display:none;" class="com-name"> Ogunsola Akorede</div>
+
+  <button class="btn" id="myButton2">Socials</button>
+  <div id="myDiv2" style="display:none;" class="com-name"> wa me @ +234 915 162 7535 <br /> Email: kurlineberyl01@gmail.com</div>
+  
+  <button class="btn" id="myButton3">Show App description</button>
+<div id="myDiv3" style="display:none;" class="desc">
+  Proxi Dictionary is a powerful and user-friendly tool for all your word-related needs. Whether you're a student, a professional, or simply someone who loves to learn new words, our app is the perfect companion to help you expand your vocabulary.
+
+With Proxi Dictionary, you can easily search for the meaning and definition of any word in the English language. Our extensive database of words is constantly updated, so you can be sure that you're getting the most accurate and up-to-date information. Additionally, you can find the word pronunciation and example sentences that helps you to understand the word in context.
+
+Our app features a clean and intuitive interface, making it easy to navigate and find the information you need. And if you're ever unsure of a word's spelling, our built-in spell checker can help you find it.
+
+Proxi Dictionary also includes a handy feature that allows you to save words to your personal vocabulary list, so you can easily review and study them later. This feature is particularly useful for students preparing for exams or anyone trying to improve their English language skills.
+
+In addition to its dictionary feature, Proxi Dictionary also has a thesaurus feature that allows you to find synonyms and antonyms of words and you can also check the words in the history section to revise them later.
+
+Proxi Dictionary is available on all major platforms including iOS, Android and web and it also works offline, so you can access it anytime, anywhere. Whether you're at home, at school, or on the go, Proxi Dictionary is the perfect tool to help you improve your English language skills.
+  <br /><p class="credit">&copy; 2023,  made with ❤️.</p></div>
+  </div></div>
+
+<!-- Use any element to open the sidenav -->
+<span class="menu" onclick="openNav()"> &#9776;</span>
+
+<span class="nav-text">Proxi English Dictionary</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+    </nav>
+    <div class="wrapper">
+      <header><span class="prox">Proxi</span> English Dictionary</header>
+      <div class="search">
+        <input type="text" placeholder="Search a word" required spellcheck="false">
+        <i class="fas fa-search"></i>
+        <span class="material-icons">close</span>
+      </div>
+      <p class="info-text">Search for an existing word, you will get theit meaning, synonyms, anthonyms and examples.</p>
+      <ul>
+        <li class="word">
+          <div class="details">
+            <p></p>
+            <span></span>
+          </div>
+          <i class="fas fa-volume-up"></i>
+        </li>
+        <div class="content">
+          <li class="meaning">
+            <div class="details">
+              <p>Meaning</p>
+              <span></span>
+            </div>
+          </li>
+          <li class="example">
+            <div class="details">
+              <p>Example</p>
+              <span></span>
+            </div>
+          </li>
+          <li class="synonyms">
+            <div class="details">
+              <p>Synonyms</p>
+              <div class="list"></div>
+            </div>
+          </li>
+        </div>
+        </ul>
+    </div>
+      <div class="search-container">
+      <div id="searchBtn" class="search-button">
+       <p>Press the enter button on your keyboard to search</p>
+       </div>
+       </div>
+    <script src="js/script.js"></script>
+    <script src="js/side-nav.js"></script>
+  </body>
+</html>
